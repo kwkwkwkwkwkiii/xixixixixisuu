@@ -1,0 +1,81 @@
+/*-------UPDATES TAB BY GLENTHEMES-------*/
+#glentab01 {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0px;
+  left: 0;
+  margin-left: 60px; /* position from left of screen */
+  width: 245px; /* updates tab width */
+
+  z-index: 9;
+}
+#image-holder {
+  width: inherit;
+  margin-bottom: -11px; /* bottom value of image */
+}
+
+#png-image-1,
+#png-image-2 {
+  display: block;
+  margin: auto;
+  width: 115px; /* both image widths */
+  vertical-align: middle;
+  cursor: help;
+}
+
+#png-image-2 {
+  display: none;
+}
+.bongo-1 {
+  display: none !important;
+}
+.bongo-2 {
+  display: block !important;
+}
+
+#glencakes {
+  position: relative;
+  padding: 12px 20px;
+  width: calc(100% - (20px * 2));
+  height: 16px;
+  background: #000; /* updates title background color */
+  border-radius: 3px 3px 0 0;
+  cursor: help;
+  z-index: -1;
+}
+
+#update-title-1,
+#update-title-2 {
+  position: absolute;
+  width: inherit;
+  font-family: karla;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #eee; /* updates title color */
+  text-align: center;
+  line-height: 1.6em;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+}
+
+#glencakes:hover #update-title-1 {
+  opacity: 0;
+}
+#update-title-2 {
+  opacity: 0;
+}
+#glencakes:hover #update-title-2 {
+  opacity: 1;
+}
+
+#updates-text {
+  display: none;
+  padding: 12px 16px;
+  background: #fff; /* updates text background color */
+  font-family: lato;
+  font-size: 12px;
+  color: #222; /* updates text color */
+  line-height: 2em;
+}
